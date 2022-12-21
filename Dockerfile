@@ -1,4 +1,4 @@
-FROM alpine:3.15.4
+FROM reg-dhub.artifactory-de.asml.com/alpine:3.15.4
 
 RUN apk add --no-cache bash curl jq
 
